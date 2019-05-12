@@ -1,5 +1,5 @@
 {
-  "name": "tinker-cli",
+  "name": "mid-tinker-cli",
   "version": "0.0.1",
   "description": "The easiest and fastest way to create new web projects with @invoker/ssr, @invoker/gatsby, and @invoker/csr",
   "contributors": [
