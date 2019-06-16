@@ -1,28 +1,28 @@
 import React from 'react'
-import Link from 'next/link'
+import Link from './../Link/Link'
 import { withRouter } from 'next/router'
 import cx from 'classnames'
 
 const NavLink = ({
   router,
+  className,
   activeClassName,
   children,
-  href = '#',
+  to = '#',
   ...restProps
 }) => {
 
-  let regex = new RegExp(`^\\${href}((\\?|\\/).*)?$`)
+  let regex = new RegExp(`^\\${to}((\\?|\\/).*)?$`)
 
   return (
     <Link
-      {...restProps}
-      href={href}>
-      {React.cloneElement(children, {
-        className: cx({
-          [children.props.className]: true,
-          [activeClassName]: router.asPath.match(regex)
-        })
+      to={to}
+      className={cx({
+        [className]: true,
+        [activeClassName]: router.asPath.match(regex)
       })}
+      {...restProps}>
+      {children}
     </Link>
   );
 }

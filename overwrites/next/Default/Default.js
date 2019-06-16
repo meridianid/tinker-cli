@@ -2,7 +2,7 @@
 import React from 'react'
 // import cx from 'classnames'
 
-import Navbar from '../Navbar/Navbar'
+import Navbar from '../../components/Navbar/Navbar'
 
 const Default = ({
   className,
