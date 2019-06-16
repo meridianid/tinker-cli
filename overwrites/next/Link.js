@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import NextLink from 'next/link';
 
 export const Link = ({ children, to, ...restProps }) => (
