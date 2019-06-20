@@ -2,7 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 
 import Default from '../layouts/Default/Default'
-import Text from '../components/Text/Text'
+import Intro from '../components/Intro/Intro'
+import Footer from '../components/Footer/Footer'
+import WhoWeAre from '../components/WhoWeAre/WhoWeAre'
 
 const HomePage = () => {
   return (
@@ -10,7 +12,9 @@ const HomePage = () => {
       <Head>
         <title>invoker-next</title>
       </Head>
-      <Text display3>Welcome to invoker-next!</Text>
+      <Intro />
+      <WhoWeAre />
+      <Footer />
     </Default>
   )
 }
