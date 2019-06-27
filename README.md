@@ -7,8 +7,16 @@ The easiest and fastest way to start new web projects with [invoker-next](https:
 To use this CLI tools properly, you need to have these installed on your machine
 
 1. **Node.js**, go to [https://nodejs.org](https://nodejs.org/en/) to install it on your machine.
-2. `npm` -- you already have this if you install Node.js, or if you like me, you can use `yarn`. Go to [here to install yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable).
-3. `gatsby-cli` if you are building gatsby project. Run `` or `yarn global add gatsby-cli` on your terminal to install it.
+2. **npm** -- you already have this if you install Node.js, or if you like me, you can use **Yarn**. Go to [here to install yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable).
+3. **Gatsby CLI** if you are building [gatsby](https://gatsbyjs.org) project.
+
+  ```shell
+  # npm
+  npm install -g gatsby-cli
+
+  # yarn
+  yarn global add gatsby-cli
+  ```
 
 And for the deployment purpose, we recommend you to install these tools. Deploying your project with just single command through the terminal and make it available for the client to see right away really speed up the feedback process.
 
@@ -23,6 +31,8 @@ npm install -g netlify-cli now
 yarn global add netlify-cli now
 ```
 
+---
+
 ## Installation
 
 To install it on your machine, just run this command on your terminal
@@ -36,6 +46,8 @@ or if you are using yarn
 ```shell
 yarn global add mid-tinker-cli
 ```
+
+---
 
 ## Usage
 
@@ -57,9 +69,10 @@ tinker next your-project-name
 
 We are going to publish the starter based the awesome on create-react-app soon!
 
+---
+
 ## Issues and Help
 
 This project is still on the early stage. The more we use it, the more we can improve it.
 
 If you are having trouble using Tinker and have questions regarding the project starter, don't hestitate to let us know by [submitting a new issue](https://github.com/meridianid/tinker-cli/issues/new).
-
