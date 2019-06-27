@@ -6,17 +6,21 @@ The easiest and fastest way to start new web projects with [invoker-next](https:
 
 To use this CLI tools properly, you need to have these installed on your machine
 
-```md
-1. [Node.js](https://nodejs.org/en/)
+1. **Node.js**, go to [https://nodejs.org](https://nodejs.org/en/) to install it on your machine.
 2. `npm` -- you already have this if you install Node.js, or if you like me, you can use `yarn`. Go to [here to install yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable).
-3. `gatsby-cli` to scaffold gatsby project. Run `npm install -g gatsby-cli` or `yarn global add gatsby-cli` on your terminal to install it.
-```
+3. `gatsby-cli` if you are building gatsby project. Run `` or `yarn global add gatsby-cli` on your terminal to install it.
 
 And for the deployment purpose, we recommend you to install these tools. Deploying your project with just single command through the terminal and make it available for the client to see right away really speed up the feedback process.
 
-```md
-1. [Netlify CLI](https://www.netlify.com/) for quick deployment. Run `npm install -g netlify-cli` or `yarn global add netlify-cli` on your terminal to install it.
-2. Or you can use [Now.sh](https://now.sh)
+1. [Netlify CLI](https://www.netlify.com/), or
+2. [Now.sh](https://now.sh)
+
+```shell
+# npm
+npm install -g netlify-cli now
+
+# yarn
+yarn global add netlify-cli now
 ```
 
 ## Installation
