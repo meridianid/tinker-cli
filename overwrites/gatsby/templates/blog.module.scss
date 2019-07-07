@@ -1,0 +1,59 @@
+@import 'src/tokens';
+
+.root {
+
+}
+
+.content {
+  padding-top: $space-ll;
+  padding-bottom: $space-ll;
+}
+
+.header {
+  margin-bottom: $space-ml;
+}
+
+.headingText {
+  font-family: $font-secondary;
+}
+
+.heading1,
+.heading2,
+.heading3 {
+  composes: headingText;
+}
+
+.heading2 {
+  padding-top: $space-ll;
+  margin-bottom: $space-ml;
+}
+
+.heading3 {
+  padding-top: $space-m;
+  margin-bottom: $space-m;
+}
+
+.heading4 {
+  margin-bottom: $space-sm;
+  text-transform: uppercase;
+}
+
+.blockquote {
+  & .paragraph {
+    font-size: 21px;
+    line-height: 26px;
+    color: $dark-alpha-60;
+    padding-top: $space-ml;
+    padding-bottom: $space-ml;
+    padding-left: $space-ml;
+    border-left: 3px solid $dark-alpha-20;
+    font-family: $font-secondary;
+  }
+}
+
+.paragraph {
+  color: $dark-alpha-70;
+  &:not(:last-child) {
+    margin-bottom: $space-ml;
+  }
+}
