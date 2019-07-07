@@ -3,19 +3,19 @@ import React from 'react'
 import Default from './../layouts/Default/Default'
 import Intro from '../components/Intro/Intro'
 import Footer from '../components/Footer/Footer'
-import WhoWeAre from '../components/WhoWeAre/WhoWeAre'
+import Blogs from '../components/Blogs/Blogs'
 
-const AboutPage = ({
+const BlogsPage = ({
   className,
   ...restProps
   }) => {
   return (
     <Default>
-      <Intro text="About Page"/>
-      <WhoWeAre />
+      <Intro text="Blogs Page"/>
+      <Blogs />
       <Footer />
     </Default>
   )
 }
 
-export default AboutPage
+export default BlogsPage

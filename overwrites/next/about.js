@@ -5,7 +5,7 @@ import Intro from '../components/Intro/Intro'
 import Footer from '../components/Footer/Footer'
 import WhoWeAre from '../components/WhoWeAre/WhoWeAre'
 
-const HomePage = ({
+const AboutPage = ({
   className,
   ...restProps
   }) => {
@@ -18,4 +18,4 @@ const HomePage = ({
   )
 }
 
-export default HomePage
+export default AboutPage
