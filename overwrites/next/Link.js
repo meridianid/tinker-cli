@@ -5,8 +5,10 @@ const Link = ({ children, external, to, ...restPprops }) => external
   ? <a href={to} {...restPprops}>
       {children}
     </a>
-  : <NextLink to={to} {...restPprops}>
-      {children}
+  : <NextLink href={to}>
+      <a {...restPprops}>
+        {children}
+      </a>
     </NextLink>
 
 export default Link
