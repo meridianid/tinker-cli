@@ -22,6 +22,7 @@
     "execa": "1.0.0",
     "fs-extra": "^8.0.1",
     "gatsby-cli": "2.4.8",
+    "glob": "^7.1.4",
     "hosted-git-info": "2.7.1",
     "ora": "3.0.0"
   }
