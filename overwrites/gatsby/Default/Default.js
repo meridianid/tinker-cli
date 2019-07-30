@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
 import "./Default.module.scss"
-import './../../sass/invoker-layout/grid.module.scss'
+import './../../styles/invoker-layout/grid.module.scss'
 import '../../assets/fonts/fonts'
 
 import Navbar from "../../components/Navbar/Navbar"
